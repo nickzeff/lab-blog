@@ -1,0 +1,36 @@
+baseURL = "https://lab.nickzeff.cc/"
+title = "Nick's Lab"
+[pagination]
+  pagerSize = 10
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  author = "Nick"
+  description = "Homelab experiments, self-hosted services, and technical notes."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Nick's Lab"
+  Content = "Homelab experiments, self-hosted services, and technical notes."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/nickzeff"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
